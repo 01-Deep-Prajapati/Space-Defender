@@ -1,0 +1,38 @@
+# Build artifacts
+/build/
+/**/build/
+
+# Qt Creator
+*.pro.user*
+*.user
+*.user.*
+*.creator.user
+
+# Qt generated
+appGame_autogen/
+qrc_*.cpp
+moc_*.cpp
+moc_*.cpp.d
+qrc_*.cpp.d
+
+# CMake / Ninja
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+build.ninja
+rules.ninja
+*.ninja
+
+# Objects / binaries
+*.o
+*.obj
+*.exe
+*.dll
+*.pdb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
